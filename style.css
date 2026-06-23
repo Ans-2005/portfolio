@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color: black;
+    background: white;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.portfolio-header {
+    background:  whitesmoke;
+    colour: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.portfolio-header h1 {
+    font-size: 4rem;
+    margin-bottom: 0 auto;
+}
+
+.portfolio-header p{
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section1 {
+    background: darkolivegreen;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 200px 20px;
+}
+
+.section1 h1{
+    margin-bottom:20px;
+}
+
+.section1 p{
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+.section1 img {
+    display:block;
+    margin:0 auto;
+    width:400px;
+    max-width:90%;
+    border-radius: 10px;
+}
+
+.section2 {
+    text-align: center;
+    padding: 80px 20px;
+    background: beige;
+}
+
+.section2 h2 {
+    font-size: 2.5rem;
+}
+
+.section2 p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+.section3 {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+}
+
+.section3 h2 {
+    font-size: 2.5rem;
+}
+
+.section3 ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.section4 {
+    text-align: center;
+    padding: 80px 20px;
+    background: beige;
+}
+
+.section4 h2 {
+    font-size: 2.5rem;
+}
+
+.section4 ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.section5 {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+}
+
+.section5 h2 {
+    font-size: 2.5rem;
+}
+
+form {
+    width: 400px;
+    max-width: 90%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: darkolivegreen;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background: darkolivegreen;
+    text-align: center;
+    padding: 50px;
+}
+
+footer a {
+    background: white;
+    color: darkolivegreen;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    .left {
+        margin: 0;
+    }
+    .right img {
+        height: auto;
+        width: 90%;
+    }
